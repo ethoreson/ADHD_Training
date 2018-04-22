@@ -1,15 +1,26 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-// THIS CLASS AND ITS ONTOUCH FUNCTION WILL BE IMPLEMENTED IN THE VR SOFTWARE.
-// IT DOES NOT SERVE A PURPOSE IN UNITY AND NEEDS TO BE CHANGED.
+using UnityEngine.UI;
 
 public class onTouchBehavior : MonoBehaviour {
 
 	public static int grandTotalScore;
+	public Text countText;
 
-	void onTouch() {
-		grandTotalScore += 1;
+	void Start ()
+	{
+		grandTotalScore = 0;
+		setScoreText();
+	}
+		
+	void onScore() {
+		grandTotalScore = grandTotalScore + 1;
+		setScoreText();
+	}
+
+	void setScoreText()
+	{
+		countText.text = "Score: " + grandTotalScore.ToString();
 	}
 }
