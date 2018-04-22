@@ -1,2 +1,4 @@
 # ADHD_Training
-This is an 8-person project for Seattle's Healthcare Interactive VR Hackathon
+This is a repository for Seattle's Healthcare Interactive VR Hackathon
+
+We are evaluating the benefits of VR for teaching coping mechanisms for kids with ADHD

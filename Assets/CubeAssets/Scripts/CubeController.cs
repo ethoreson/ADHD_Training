@@ -22,6 +22,8 @@ public class CubeController : MonoBehaviour {
 		if (rend.sharedMaterial == matofobject[0]) {
 			rend.sharedMaterial = matofobject[1];
 			Invoke("ChangeColor", 2);
+			onTouchBehavior.grandTotalScore = onTouchBehavior.grandTotalScore + 1;
+			Debug.Log("score should be 1 more than ^^^ : " + onTouchBehavior.grandTotalScore);
 		} else {
 			rend.sharedMaterial = matofobject[0];
 			Invoke("ChangeColor", randomTime);
