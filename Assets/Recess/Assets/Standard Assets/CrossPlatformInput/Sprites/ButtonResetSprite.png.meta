@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+guid: 8484caa05b1df7848b000997d92d5cb9
+=======
 guid: 31c65d4234dbe744f9b4b76f12b13cf9
+>>>>>>> ec002c1784267982ffdd10ed39aef029b77d0ac3
 TextureImporter:
   fileIDToRecycleName:
     21300000: ResetButton

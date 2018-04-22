@@ -11,6 +11,7 @@ public class CubeController : MonoBehaviour {
 
 	void Start ()
 	{
+		Debug.Log("SCRIPT IS RUNNING!!!");
 		rend = GetComponent<Renderer>();
 		rend.enabled = true;
 		rend.sharedMaterial = matofobject[0];
@@ -23,6 +24,7 @@ public class CubeController : MonoBehaviour {
 		if (rend.sharedMaterial == matofobject[0]) {
 			rend.sharedMaterial = matofobject[1];
 			Invoke("ChangeColor", 2);
+			Debug.Log("changing to cyan now!!!");
 			onTouchBehavior.grandTotalScore = onTouchBehavior.grandTotalScore + 1;
 			Debug.Log("score should be 1 more than ^^^ : " + onTouchBehavior.grandTotalScore);
 		} else {
