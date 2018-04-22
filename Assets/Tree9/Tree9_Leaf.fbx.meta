@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: ccee39af87788eb4aaf9eaec2e5054e0
+=======
+guid: d757d54eaa59e3f4cb5e0da943fd3fd8
+>>>>>>> ec002c1784267982ffdd10ed39aef029b77d0ac3
 timeCreated: 1453384361
 licenseType: Store
 ModelImporter:
@@ -15,7 +19,11 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: leaf
+<<<<<<< HEAD
     second: {fileID: 2100000, guid: b6936b5a3bf0f564cae8473fd120c031, type: 2}
+=======
+    second: {fileID: 2100000, guid: e9cec074850d42b498391434c3a8a53a, type: 2}
+>>>>>>> ec002c1784267982ffdd10ed39aef029b77d0ac3
   materials:
     importMaterials: 1
     materialName: 0

@@ -15,7 +15,11 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: OceanPLaneMaterial
+<<<<<<< HEAD
     second: {fileID: 2100000, guid: 05bc6a206cdc5264d9ba996cd4b5af46, type: 2}
+=======
+    second: {fileID: 2100000, guid: a437a9b380909fa4d98f929428f70388, type: 2}
+>>>>>>> ec002c1784267982ffdd10ed39aef029b77d0ac3
   materials:
     importMaterials: 1
     materialName: 1

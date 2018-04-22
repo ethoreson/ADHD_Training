@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 19be00298a7e49941916b395f12657a3
+=======
+guid: 346a95a4da03a3842975e7f048efd6c1
+>>>>>>> ec002c1784267982ffdd10ed39aef029b77d0ac3
 SpeedTreeImporter:
   externalObjects: {}
   serializedVersion: 4

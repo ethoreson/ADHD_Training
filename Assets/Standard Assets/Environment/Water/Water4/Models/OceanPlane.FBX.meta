@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 3ff30476994178c41b25f5f5991c7a1b
+=======
+guid: 4d97603979797c246bbf64b6bdf4d2f1
+>>>>>>> ec002c1784267982ffdd10ed39aef029b77d0ac3
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
@@ -15,7 +19,11 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: OceanPLaneMaterial
+<<<<<<< HEAD
     second: {fileID: 2100000, guid: 1d1995fb5ee52d945946d542f92a8d83, type: 2}
+=======
+    second: {fileID: 2100000, guid: 681cc91d23d75e94ab75e8106417d83a, type: 2}
+>>>>>>> ec002c1784267982ffdd10ed39aef029b77d0ac3
   materials:
     importMaterials: 1
     materialName: 1
