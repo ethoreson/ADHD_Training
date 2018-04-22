@@ -1,2 +1,2 @@
 # ADHD_Training
-This is an 8-person project for Seattle's Healthcare Interactive VR Hackathon
+This is an repository for Seattle's Healthcare Interactive VR Hackathon
