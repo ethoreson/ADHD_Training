@@ -1,11 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: 644dc7b146ab0ba4fa353af665031541
-=======
-guid: dd590fd77a8e1f0478e3b1ed0658fa29
->>>>>>> ec002c1784267982ffdd10ed39aef029b77d0ac3
-timeCreated: 1511371684
-licenseType: Store
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
@@ -21,36 +15,31 @@ ModelImporter:
     400006: fence_road_LOD1
     400008: fence_road_LOD2
     400010: fence_road_LOD3
-    2300000: //RootNode
-    2300002: fence_road_col
-    2300004: fence_road_LOD0
-    2300006: fence_road_LOD1
-    2300008: fence_road_LOD2
-    2300010: fence_road_LOD3
-    3300000: //RootNode
-    3300002: fence_road_col
-    3300004: fence_road_LOD0
-    3300006: fence_road_LOD1
-    3300008: fence_road_LOD2
-    3300010: fence_road_LOD3
-    4300000: fence_road
+    2100000: 01 - Default
+    2100002: 13 - Default
+    2300000: fence_road_col
+    2300002: fence_road_LOD0
+    2300004: fence_road_LOD1
+    2300006: fence_road_LOD2
+    2300008: fence_road_LOD3
+    3300000: fence_road_col
+    3300002: fence_road_LOD0
+    3300004: fence_road_LOD1
+    3300006: fence_road_LOD2
+    3300008: fence_road_LOD3
+    4300000: fence_road_col
     4300002: fence_road_LOD0
-    4300004: fence_road_col
-    4300006: fence_road_LOD1
-    4300008: fence_road_LOD2
-    4300010: fence_road_LOD3
+    4300004: fence_road_LOD1
+    4300006: fence_road_LOD2
+    4300008: fence_road_LOD3
+    9500000: //RootNode
     20500000: //RootNode
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: 01 - Default
-    second: {fileID: 2100000, guid: bc1cbd2e1133b9b45b45181e7abd3c6e, type: 2}
+  externalObjects: {}
   materials:
-    importMaterials: 0
+    importMaterials: 1
     materialName: 0
     materialSearch: 1
-    materialLocation: 0
+    materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -123,7 +112,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

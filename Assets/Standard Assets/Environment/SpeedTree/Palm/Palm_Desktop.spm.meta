@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: 92369e7d2552d29438d2b4c0dd7af78f
-=======
-guid: b2fe016badc33b44a9be4c0f93d8ea85
->>>>>>> ec002c1784267982ffdd10ed39aef029b77d0ac3
 SpeedTreeImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -20,7 +16,7 @@ SpeedTreeImporter:
     reflectionProbeUsage: 1
     enableBump: 1
     enableHue: 1
-    windQuality: 5
+    windQuality: 4
   - height: 0.25
     castShadows: 1
     receiveShadows: 1
@@ -28,7 +24,7 @@ SpeedTreeImporter:
     reflectionProbeUsage: 1
     enableBump: 1
     enableHue: 1
-    windQuality: 5
+    windQuality: 4
   - height: 0.125
     castShadows: 1
     receiveShadows: 1
@@ -36,10 +32,10 @@ SpeedTreeImporter:
     reflectionProbeUsage: 1
     enableBump: 1
     enableHue: 1
-    windQuality: 5
+    windQuality: 4
   - height: 0.01
-    castShadows: 0
-    receiveShadows: 0
+    castShadows: 1
+    receiveShadows: 1
     useLightProbes: 0
     reflectionProbeUsage: 0
     enableBump: 1

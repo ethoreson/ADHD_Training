@@ -1,30 +1,21 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: 1e57630f6c494b843bfe4d504efdcf91
-=======
-guid: 9517f1ad128eb45428ec5d648f19b065
->>>>>>> ec002c1784267982ffdd10ed39aef029b77d0ac3
-timeCreated: 1511270573
-licenseType: Store
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
+    2100000: No Name
     2300000: //RootNode
     3300000: //RootNode
     4300000: stand
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: No Name
-    second: {fileID: 2100000, guid: 847a0f3c1b253a648bd1022f2de0019f, type: 2}
+    9500000: //RootNode
+  externalObjects: {}
   materials:
-    importMaterials: 0
+    importMaterials: 1
     materialName: 0
     materialSearch: 1
-    materialLocation: 0
+    materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -93,7 +84,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

@@ -1,34 +1,21 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: ccee39af87788eb4aaf9eaec2e5054e0
-=======
-guid: d757d54eaa59e3f4cb5e0da943fd3fd8
->>>>>>> ec002c1784267982ffdd10ed39aef029b77d0ac3
-timeCreated: 1453384361
-licenseType: Store
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
+    2100000: leaf
     2300000: //RootNode
     3300000: //RootNode
     4300000: Plane
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: leaf
-<<<<<<< HEAD
-    second: {fileID: 2100000, guid: b6936b5a3bf0f564cae8473fd120c031, type: 2}
-=======
-    second: {fileID: 2100000, guid: e9cec074850d42b498391434c3a8a53a, type: 2}
->>>>>>> ec002c1784267982ffdd10ed39aef029b77d0ac3
+    9500000: //RootNode
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
-    materialLocation: 0
+    materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -56,10 +43,10 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
-    importVisibility: 0
+    importVisibility: 1
     importBlendShapes: 1
-    importCameras: 0
-    importLights: 0
+    importCameras: 1
+    importLights: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
@@ -67,7 +54,7 @@ ModelImporter:
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
-    indexFormat: 1
+    indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
@@ -77,7 +64,7 @@ ModelImporter:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
-    normalCalculationMode: 0
+    normalCalculationMode: 4
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
@@ -95,9 +82,9 @@ ModelImporter:
     rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
-    skeletonHasParents: 0
+    skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
