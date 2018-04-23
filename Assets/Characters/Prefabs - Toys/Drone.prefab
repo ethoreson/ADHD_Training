@@ -557,8 +557,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 183.96094
-        y: 182
+        x: 192.86719
+        y: 178.96875
         width: 100
         height: 64
       isBreakpoint: 0
@@ -585,20 +585,20 @@ MonoBehaviour:
           name: Drop
           isSystemEvent: 0
           isGlobal: 0
-        toState: State 5
+        toState: State 1
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
       actionData:
         actionNames:
+        - HutongGames.PlayMaker.Actions.GetProperty
+        - HutongGames.PlayMaker.Actions.GetProperty
+        - HutongGames.PlayMaker.Actions.GetProperty
         - HutongGames.PlayMaker.Actions.GetAxis
         - HutongGames.PlayMaker.Actions.GetAxis
         - HutongGames.PlayMaker.Actions.Translate
-        - HutongGames.PlayMaker.Actions.GetProperty
         - HutongGames.PlayMaker.Actions.BoolTest
-        - HutongGames.PlayMaker.Actions.GetProperty
         - HutongGames.PlayMaker.Actions.BoolTest
-        - HutongGames.PlayMaker.Actions.GetProperty
         - HutongGames.PlayMaker.Actions.BoolTest
         customNames:
         - 
@@ -612,8 +612,8 @@ MonoBehaviour:
         - 
         actionEnabled: 010101010101010101
         actionIsOpen: 010101010101010101
-        actionStartIndex: 0000000004000000080000001200000014000000180000001a0000001e00000020000000
-        actionHashCodes: 3fb24c033fb24c03b03274005ac85204a4c8bf005ac85204a4c8bf005ac85204a4c8bf00
+        actionStartIndex: 000000000200000004000000060000000a0000000e000000180000001c00000020000000
+        actionHashCodes: 5ac852045ac852045ac852043fb24c033fb24c03b0327400a4c8bf00a4c8bf00a4c8bf00
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
@@ -639,10 +639,10 @@ MonoBehaviour:
             typeName: UnityEngine.Object
             value: {fileID: 0}
           TargetTypeName: VRTK.VRTK_ControllerEvents
-          PropertyName: 
+          PropertyName: gripPressed
           BoolParameter:
-            useVariable: 0
-            name: 
+            useVariable: 1
+            name: MenuLeft
             tooltip: 
             showInInspector: 0
             networkSync: 0
@@ -714,7 +714,139 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
+            typeName: System.Boolean
+            value: {fileID: 0}
+          MaterialParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
             typeName: 
+            value: {fileID: 0}
+          TextureParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            typeName: 
+            value: {fileID: 0}
+          ColorParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {r: 0, g: 0, b: 0, a: 1}
+          EnumParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            enumName: HutongGames.PlayMaker.None
+            intValue: 0
+          ArrayParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            type: -1
+            objectTypeName: UnityEngine.Object
+            floatValues: []
+            intValues: 
+            boolValues: 
+            stringValues: []
+            vector4Values: []
+            objectReferences: []
+          setProperty: 0
+        - TargetObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            typeName: UnityEngine.Object
+            value: {fileID: 0}
+          TargetTypeName: VRTK.VRTK_ControllerEvents
+          PropertyName: triggerPressed
+          BoolParameter:
+            useVariable: 1
+            name: TriggerLeft
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          FloatParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          IntParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          GameObjectParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+          StringParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 
+          Vector2Parameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {x: 0, y: 0}
+          Vector3Parameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {x: 0, y: 0, z: 0}
+          RectParamater:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: 0
+              height: 0
+          QuaternionParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {x: 0, y: 0, z: 0, w: 0}
+          ObjectParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            typeName: System.Boolean
             value: {fileID: 0}
           MaterialParameter:
             useVariable: 0
@@ -771,10 +903,10 @@ MonoBehaviour:
             typeName: UnityEngine.Object
             value: {fileID: 0}
           TargetTypeName: VRTK.VRTK_ControllerEvents
-          PropertyName: 
+          PropertyName: menuPressed
           BoolParameter:
-            useVariable: 0
-            name: 
+            useVariable: 1
+            name: GripLeft
             tooltip: 
             showInInspector: 0
             networkSync: 0
@@ -846,139 +978,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            typeName: 
-            value: {fileID: 0}
-          MaterialParameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            typeName: 
-            value: {fileID: 0}
-          TextureParameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            typeName: 
-            value: {fileID: 0}
-          ColorParameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {r: 0, g: 0, b: 0, a: 1}
-          EnumParameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            enumName: 
-            intValue: 0
-          ArrayParameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            type: -1
-            objectTypeName: 
-            floatValues: []
-            intValues: 
-            boolValues: 
-            stringValues: []
-            vector4Values: []
-            objectReferences: []
-          setProperty: 0
-        - TargetObject:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            typeName: UnityEngine.Object
-            value: {fileID: 0}
-          TargetTypeName: VRTK.VRTK_ControllerEvents
-          PropertyName: 
-          BoolParameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: 0
-          FloatParameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: 0
-          IntParameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: 0
-          GameObjectParameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {fileID: 0}
-          StringParameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: 
-          Vector2Parameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {x: 0, y: 0}
-          Vector3Parameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {x: 0, y: 0, z: 0}
-          RectParamater:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value:
-              serializedVersion: 2
-              x: 0
-              y: 0
-              width: 0
-              height: 0
-          QuaternionParameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {x: 0, y: 0, z: 0, w: 0}
-          ObjectParameter:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            typeName: 
+            typeName: System.Boolean
             value: {fileID: 0}
           MaterialParameter:
             useVariable: 0
@@ -1125,13 +1125,19 @@ MonoBehaviour:
         - 
         - Drop
         - 
-        byteData: 01010100000001010000010101010101
+        byteData: 01010101010100000001010000010101
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 120000000f0000000f00000001000000120000000f0000000f00000001000000140000001c0000000f0000000f0000000f0000000700000001000000010000000100000001000000240000000100000011000000170000001700000001000000240000000100000011000000170000001700000001000000240000000100000011000000170000001700000001000000
+        paramDataType: 240000000100000024000000010000002400000001000000120000000f0000000f00000001000000120000000f0000000f00000001000000140000001c0000000f0000000f0000000f0000000700000001000000010000000100000001000000110000001700000017000000010000001100000017000000170000000100000011000000170000001700000001000000
         paramName:
+        - targetProperty
+        - everyFrame
+        - targetProperty
+        - everyFrame
+        - targetProperty
+        - everyFrame
         - axisName
         - multiplier
         - store
@@ -1150,26 +1156,20 @@ MonoBehaviour:
         - everyFrame
         - lateUpdate
         - fixedUpdate
-        - targetProperty
+        - boolVariable
+        - isTrue
+        - isFalse
         - everyFrame
         - boolVariable
         - isTrue
         - isFalse
         - everyFrame
-        - targetProperty
-        - everyFrame
         - boolVariable
         - isTrue
         - isFalse
         - everyFrame
-        - targetProperty
-        - everyFrame
-        - boolVariable
-        - isTrue
-        - isFalse
-        - everyFrame
-        paramDataPos: 000000000000000001000000000000000100000002000000030000000100000000000000000000000400000005000000060000000200000006000000070000000800000009000000000000000a0000000000000000000000010000000b000000010000000c0000000100000002000000030000000d000000020000000e0000000200000004000000050000000f000000
-        paramByteDataSize: 000000000000000000000000010000000000000000000000000000000100000000000000000000000000000000000000000000000400000001000000010000000100000001000000000000000100000000000000000000000000000001000000000000000100000000000000000000000000000001000000000000000100000000000000000000000000000001000000
+        paramDataPos: 0000000000000000010000000100000002000000020000000000000000000000010000000300000001000000020000000300000004000000000000000000000004000000050000000600000005000000090000000a0000000b0000000c0000000000000000000000010000000d0000000100000002000000030000000e0000000200000004000000050000000f000000
+        paramByteDataSize: 000000000100000000000000010000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000000000000000000000400000001000000010000000100000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000
     - name: State 2
       description: 
       colorIndex: 0
@@ -1193,8 +1193,8 @@ MonoBehaviour:
         colorIndex: 0
       actionData:
         actionNames:
-        - HutongGames.PlayMaker.Actions.Translate
         - HutongGames.PlayMaker.Actions.GetProperty
+        - HutongGames.PlayMaker.Actions.Translate
         - HutongGames.PlayMaker.Actions.BoolTest
         - HutongGames.PlayMaker.Actions.GetAxis
         - HutongGames.PlayMaker.Actions.GetAxis
@@ -1208,8 +1208,8 @@ MonoBehaviour:
         - 
         actionEnabled: 010101010101
         actionIsOpen: 010101010101
-        actionStartIndex: 000000000a0000000c000000100000001400000018000000
-        actionHashCodes: b03274005ac85204a4c8bf003fb24c033fb24c03b0327400
+        actionStartIndex: 00000000020000000c000000100000001400000018000000
+        actionHashCodes: 5ac85204b0327400a4c8bf003fb24c033fb24c03b0327400
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
@@ -1349,7 +1349,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            enumName: HutongGames.PlayMaker.None
+            enumName: 
             intValue: 0
           ArrayParameter:
             useVariable: 0
@@ -1358,7 +1358,7 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             type: -1
-            objectTypeName: UnityEngine.Object
+            objectTypeName: 
             floatValues: []
             intValues: 
             boolValues: 
@@ -1473,13 +1473,15 @@ MonoBehaviour:
         stringParams:
         - 
         - Level Out
-        byteData: 0100000001010000010101010100000001010000
+        byteData: 0101000000010100000101010100000001010000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 140000001c0000000f0000000f0000000f0000000700000001000000010000000100000001000000240000000100000011000000170000001700000001000000120000000f0000000f00000001000000120000000f0000000f00000001000000140000001c0000000f0000000f0000000f0000000700000001000000010000000100000001000000
+        paramDataType: 2400000001000000140000001c0000000f0000000f0000000f000000070000000100000001000000010000000100000011000000170000001700000001000000120000000f0000000f00000001000000120000000f0000000f00000001000000140000001c0000000f0000000f0000000f0000000700000001000000010000000100000001000000
         paramName:
+        - targetProperty
+        - everyFrame
         - gameObject
         - vector
         - x
@@ -1490,8 +1492,6 @@ MonoBehaviour:
         - everyFrame
         - lateUpdate
         - fixedUpdate
-        - targetProperty
-        - everyFrame
         - boolVariable
         - isTrue
         - isFalse
@@ -1514,15 +1514,15 @@ MonoBehaviour:
         - everyFrame
         - lateUpdate
         - fixedUpdate
-        paramDataPos: 000000000000000000000000010000000200000000000000040000000500000006000000070000000000000008000000000000000000000001000000090000000000000003000000040000000a0000000100000005000000060000000b00000001000000010000000700000008000000090000000c00000010000000110000001200000013000000
-        paramByteDataSize: 00000000000000000000000000000000000000000400000001000000010000000100000001000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000000000000000000000400000001000000010000000100000001000000
+        paramDataPos: 000000000000000000000000000000000000000001000000020000000100000005000000060000000700000008000000000000000000000001000000090000000000000003000000040000000a0000000100000005000000060000000b00000001000000010000000700000008000000090000000c00000010000000110000001200000013000000
+        paramByteDataSize: 00000000010000000000000000000000000000000000000000000000040000000100000001000000010000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000000000000000000000400000001000000010000000100000001000000
     - name: State 3
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 338
-        y: 248
+        x: 357.59375
+        y: 246.96875
         width: 100
         height: 32
       isBreakpoint: 0
@@ -1539,8 +1539,8 @@ MonoBehaviour:
         colorIndex: 0
       actionData:
         actionNames:
-        - HutongGames.PlayMaker.Actions.Translate
         - HutongGames.PlayMaker.Actions.GetProperty
+        - HutongGames.PlayMaker.Actions.Translate
         - HutongGames.PlayMaker.Actions.BoolTest
         - HutongGames.PlayMaker.Actions.GetAxis
         - HutongGames.PlayMaker.Actions.GetAxis
@@ -1554,8 +1554,8 @@ MonoBehaviour:
         - 
         actionEnabled: 010101010101
         actionIsOpen: 010101010101
-        actionStartIndex: 000000000a0000000c000000100000001400000018000000
-        actionHashCodes: b03274005ac85204a4c8bf003fb24c033fb24c03b0327400
+        actionStartIndex: 00000000020000000c000000100000001400000018000000
+        actionHashCodes: 5ac85204b0327400a4c8bf003fb24c033fb24c03b0327400
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
@@ -1695,7 +1695,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            enumName: HutongGames.PlayMaker.None
+            enumName: 
             intValue: 0
           ArrayParameter:
             useVariable: 0
@@ -1704,7 +1704,7 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             type: -1
-            objectTypeName: UnityEngine.Object
+            objectTypeName: 
             floatValues: []
             intValues: 
             boolValues: 
@@ -1819,13 +1819,15 @@ MonoBehaviour:
         stringParams:
         - 
         - Level Out
-        byteData: 0100000001010000010101010100000001010000
+        byteData: 0101000000010100000101010100000001010000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 140000001c0000000f0000000f0000000f0000000700000001000000010000000100000001000000240000000100000011000000170000001700000001000000120000000f0000000f00000001000000120000000f0000000f00000001000000140000001c0000000f0000000f0000000f0000000700000001000000010000000100000001000000
+        paramDataType: 2400000001000000140000001c0000000f0000000f0000000f000000070000000100000001000000010000000100000011000000170000001700000001000000120000000f0000000f00000001000000120000000f0000000f00000001000000140000001c0000000f0000000f0000000f0000000700000001000000010000000100000001000000
         paramName:
+        - targetProperty
+        - everyFrame
         - gameObject
         - vector
         - x
@@ -1836,8 +1838,6 @@ MonoBehaviour:
         - everyFrame
         - lateUpdate
         - fixedUpdate
-        - targetProperty
-        - everyFrame
         - boolVariable
         - isTrue
         - isFalse
@@ -1860,8 +1860,8 @@ MonoBehaviour:
         - everyFrame
         - lateUpdate
         - fixedUpdate
-        paramDataPos: 000000000000000000000000010000000200000000000000040000000500000006000000070000000000000008000000000000000000000001000000090000000000000003000000040000000a0000000100000005000000060000000b00000001000000010000000700000008000000090000000c00000010000000110000001200000013000000
-        paramByteDataSize: 00000000000000000000000000000000000000000400000001000000010000000100000001000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000000000000000000000400000001000000010000000100000001000000
+        paramDataPos: 000000000000000000000000000000000000000001000000020000000100000005000000060000000700000008000000000000000000000001000000090000000000000003000000040000000a0000000100000005000000060000000b00000001000000010000000700000008000000090000000c00000010000000110000001200000013000000
+        paramByteDataSize: 00000000010000000000000000000000000000000000000000000000040000000100000001000000010000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000000000000000000000400000001000000010000000100000001000000
     - name: State 4
       description: 
       colorIndex: 0
@@ -2091,8 +2091,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 385
-        y: 185
+        x: 390.92188
+        y: 184.95312
         width: 100
         height: 32
       isBreakpoint: 0
@@ -2103,7 +2103,7 @@ MonoBehaviour:
           name: Drop
           isSystemEvent: 0
           isGlobal: 0
-        toState: State 1
+        toState: State 4
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -2269,10 +2269,10 @@ MonoBehaviour:
             typeName: UnityEngine.Object
             value: {fileID: 0}
           TargetTypeName: VRTK.VRTK_ControllerEvents
-          PropertyName: 
+          PropertyName: menuPressed
           BoolParameter:
-            useVariable: 0
-            name: 
+            useVariable: 1
+            name: MenuLeft
             tooltip: 
             showInInspector: 0
             networkSync: 0
@@ -2344,7 +2344,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            typeName: 
+            typeName: System.Boolean
             value: {fileID: 0}
           MaterialParameter:
             useVariable: 0
@@ -2507,7 +2507,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -2522,7 +2522,7 @@ MonoBehaviour:
     handleCollisionEnter2D: 0
     handleCollisionExit2D: 0
     handleCollisionStay2D: 0
-    handleTriggerEnter: 1
+    handleTriggerEnter: 0
     handleTriggerExit: 0
     handleTriggerStay: 0
     handleCollisionEnter: 0
