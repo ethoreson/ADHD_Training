@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Controller Spheres
   - Animal Friend
+  - Ground
   layers:
   - Default
   - TransparentFX
