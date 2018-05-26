@@ -20,6 +20,12 @@ MonoBehaviour:
       networkSync: 0
       value: 0
     - useVariable: 1
+      name: Ball/Bounce Position Y
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
       name: Ball/Bounce Position Z
       tooltip: 
       showInInspector: 0
@@ -33,7 +39,13 @@ MonoBehaviour:
     colorVariables: []
     rectVariables: []
     quaternionVariables: []
-    gameObjectVariables: []
+    gameObjectVariables:
+    - useVariable: 1
+      name: Ball
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
     objectVariables: []
     materialVariables: []
     textureVariables: []
@@ -41,5 +53,9 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 0000000000000000
-  events: []
+    variableCategoryIDs: 00000000000000000000000000000000
+  events:
+  - Ball/Ball Bounce
+  - Drone Off
+  - Drone On
+  - Ball/Caught
