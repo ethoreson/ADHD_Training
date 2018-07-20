@@ -1,4 +1,0 @@
-sceneSetups:
-- path: Assets/recess.unity
-  isLoaded: 1
-  isActive: 1
